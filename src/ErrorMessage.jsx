@@ -2,9 +2,9 @@ export default function ErrorMessage({ message }) {
     if (!message) return null;
   
     return (
-      <div className="alert alert-error mt-5">
+      <h1 className="Error text-center text-white">
         {message}
-      </div>
+      </h1>
     );
   }
   

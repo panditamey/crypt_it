@@ -20,11 +20,19 @@
   align-self: center;
 }
 
-.Headline{
-font-size: 2.5em;
+.Error , .Tx{
+  margin-top: 10px;
+font-size: 1em;
 /* font-family: 'Redressed', cursive; */
 font-weight: bold;
 }
+
+.Headline{
+  font-size: 2.5em;
+  /* font-family: 'Redressed', cursive; */
+  font-weight: bold;
+  }
+  
 
 .Textfield{
   align-content: center;
@@ -46,3 +54,4 @@ font-weight: bold;
   align-content: center;
   align-self: center;
 }
+
